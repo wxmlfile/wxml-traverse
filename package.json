@@ -1,0 +1,36 @@
+{
+  "name": "@wxml/traverse",
+  "version": "0.0.3",
+  "description": "",
+  "main": "lib/traverse.js",
+  "scripts": {
+    "test": "tsc & node ./tests/index.js",
+    "build": "rimraf ./lib & tsc",
+    "prepublish": "rimraf ./lib & tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wxmlfile/wxml-traverse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wxmlfile/wxml-traverse/issues"
+  },
+  "homepage": "https://github.com/wxmlfile/wxml-traverse#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "peerDependencies": {
+    "@wxml/parser": "^0.4.0"
+  },
+  "devDependencies": {
+    "@babel/generator": "^7.20.14",
+    "@babel/parser": "^7.20.15",
+    "@babel/traverse": "^7.20.13",
+    "@wxml/generator": "^0.1.0",
+    "@wxml/parser": "^0.4.0",
+    "rimraf": "^4.1.2"
+  }
+}
